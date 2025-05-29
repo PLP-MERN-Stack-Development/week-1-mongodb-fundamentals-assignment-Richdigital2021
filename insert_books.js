@@ -131,7 +131,18 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
+  },
+  {
+    title: "To Be Deleted",
+    author: "Test Author",
+    genre: "Test",
+    published_year: 2025,
+    price: 5.99,
+    in_stock: true,
+    pages: 100,
+    publisher: "TestPub"
   }
+  
 ];
 
 // Function to insert books into MongoDB
